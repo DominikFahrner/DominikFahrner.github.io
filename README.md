@@ -1,3 +1,13 @@
-# Dominik Fahrner, PhD -  Postdoc Glaciologist at the Geological Survey of Denmark and Greenland
 
-this is a personal website of Dominik Fahrner
+<!DOCTYPE html> 
+<html>
+  <head>
+    <title>Dominik Fahrner - Homepage</title>
+  </head>
+  
+  <body>
+    <h1>Hi, I'm Dominik and I am a Glaciologist !</h1>  
+    
+    <p>Welcome to my website!</p> 
+  </body>
+</html>
