@@ -1665,4 +1665,12 @@ input, select, textarea {
   width: 100%;          /* keep images responsive */
   border-radius: 6px;   /* optional: rounded corners */
 }
+/* Force gallery images to uniform size */
+.media-gallery .image.fit img {
+  width: 100%;          /* fill container width */
+  height: 200px;        /* fixed height */
+  object-fit: cover;    /* crop edges to fit nicely */
+}
+
+
 
