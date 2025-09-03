@@ -181,6 +181,40 @@
 							<article id="Media">
 								<h2 class="major">Media</h2>
 								<span class="image main"><img src="images/Flight.jpg" alt="" /></span>
+								<h3 class="minor">2025</h3>
+								<p>In 2025, I participated in fieldwork at Petermann Glacier, North Greenland. The aim of the expedition was to install 10 GPS stations on Petermann Glacier/p>
+								<!-- Photo Grid -->
+									<section class="media-gallery">
+										<div class="row gtr-25 gtr-uniform">
+											<div class="col-4">
+											<a href="images/gallery1.jpg" class="image fit lightbox">
+												<img src="images/gallery1.jpg" alt="Getting ready for fieldwork at Petermann Glacier" />
+											</a>
+											</div>
+											<div class="col-4">
+											<a href="images/gallery2.jpg" class="image fit lightbox">
+												<img src="images/gallery2.jpg" alt="Raising the GPS station at Petermann Glacier" />
+											</a>
+											</div>
+											<div class="col-4">
+											<a href="images/gallery3.jpg" class="image fit lightbox">
+												<img src="images/gallery3.jpg" alt="Kovacs ice drill used for drilling" />
+											</a>
+											</div>
+											<div class="col-4">
+											<a href="images/gallery4.jpeg" class="image fit lightbox">
+												<img src="images/gallery4.jpeg" alt="Petermann Glacier towards the accumulation zone" />
+											</a>
+											</div>
+											<div class="col-4">
+											<a href="images/gallery5.jpeg" class="image fit lightbox">
+												<img src="images/gallery5.jpeg" alt="Petermann Glacier towards the terminus" />
+											</a>
+											</div>
+											<!-- Add more photos as needed -->
+										</div>
+									</section>
+
 								<h3 class="minor">2024</h3>
 								<p>In 2024, I was part of the GC-Net Southwest Team which serviced GC-Net weather stations in the southwest of the Greenland Ice Sheet.
 							           During the fieldwork, the Danish TV programme "Jordan Kalder" on DR filmed a short documentary about the installation and maintenance of GC-Net weather stations in Greenland.
@@ -486,6 +520,18 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.1/simple-lightbox.min.css" />
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.1/simple-lightbox.jquery.min.js"></script>
+			<script>
+			$(function(){
+				$('.lightbox').simpleLightbox({
+				captions: true,
+				captionsData: 'alt',
+				captionDelay: 200
+				});
+			});
+			</script>
+
 
 	</body>
 </html>
