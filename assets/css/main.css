@@ -1660,8 +1660,18 @@ input, select, textarea {
 			opacity: 0;
 		}
 .media-gallery img {
-  height: 200px;        /* controls grid height */
+  height: 100px;        /* controls grid height */
   object-fit: cover;    /* crops edges so all images align nicely */
   width: 100%;          /* keep images responsive */
   border-radius: 6px;   /* optional: rounded corners */
 }
+/* Force gallery images to uniform size */
+.media-gallery .image.fit img {
+  width: 100%;          /* fill container width */
+  height: 100px;        /* fixed height */
+  object-fit: cover;    /* crop edges to fit nicely */
+}
+
+
+
+
